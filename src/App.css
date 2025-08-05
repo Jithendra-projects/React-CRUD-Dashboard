@@ -1,0 +1,22 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+.container {
+  padding: 20px;
+}
+
+button {
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

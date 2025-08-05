@@ -1,0 +1,59 @@
+.user-detail-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  height: 100vh; /* Full viewport height */
+  
+}
+
+/* Center only the title */
+.user-detail-container .title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* Card with flex layout, left aligned */
+.user-detail-container .card {
+  display: flex;
+  gap: 25px;
+  background-color: #f5f9ff;
+  padding: 25px 35px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  flex-wrap: wrap; /* For smaller screens */
+}
+
+/* User image */
+.user-detail-container .card img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* Info section takes remaining space */
+.user-detail-container .card > div {
+  flex: 1;
+}
+
+/* User name styling */
+.user-detail-container .card h3 {
+  margin: 0 0 15px;
+  font-size: 1.8rem;
+  color: #1a1a1a;
+}
+
+/* User info text */
+.user-detail-container .card p {
+  margin: 7px 0;
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.5;
+}
